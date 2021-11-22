@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="wavelink, musica, piano, instrumentos, accesorios, envios, registrarse, formulario, member center, membresia">
+        <title>WaveLink Member Center - Registrarse</title>
+        <link rel="icon" href="../assets/favicon/favicon.ico" sizes="16x16">
+        <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/facivon.ico">
+        <link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/favicon.ico">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="globalheader">
+            <div class="header1">
+                <a href="../index.html"><img src="../assets/images/logo.png" class="logo L1"></a>
+                <nav class="hamburgerMenu" role="navigation">
+                    <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="../index.html"><li>INICIO</li></a>
+                        <li>PRODUCTOS</li>
+                        <li>
+                            <ul class="nobullet">
+                                <a href="../pages/pianos.html" class="fontSizeSmall product"><li>Pianos y Guitarras</li></a>
+                                <a href="../pages/synthesizers.html" class="fontSizeSmall product"><li>Sintetizadores</li></a>
+                                <a href="../pages/accessories.html" class="fontSizeSmall product"><li>Accesorios</li></a>
+                            </ul>
+                        </li>
+                        <a href="../pages/community.html"><li>COMUNIDAD</li></a>
+                        <a href="../pages/register.html"><li>MEMBER CENTER</li></a>
+                        <a href="../pages/support.html"><li>SOPORTE</li></a>
+                        <a href="../pages/aboutus.html"><li>SOBRE WAVELINK</li></a>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="header2">
+                <nav class="navigation"><!--Main Navigation-->
+                    <ul class=nobullet>
+                        <li type="button" class="dropbtn fontSizeXLarge">PRODUCTOS
+                            <div class="dropdown">
+                                <ul class="dropdown-content">
+                                    <a href="../pages/pianos.html" class="fontSizeLarge">Pianos y Guitarras</a>
+                                    <a href="../pages/synthesizers.html" class="fontSizeLarge">Sintetizadores</a>
+                                    <a href="../pages/accessories.html" class="fontSizeLarge">Accesorios</a>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../pages/community.html" class="noStyleLink fontSizeXLarge">COMUNIDAD</a></li>
+                        <li><a href="../pages/register.html" class="noStyleLink fontSizeXLarge">MEMBER CENTER</a></li>
+                        <li><a href="../pages/support.html" class="noStyleLink fontSizeXLarge">SOPORTE</a></li>
+                        <li><a href="../pages/aboutus.html" class="noStyleLink fontSizeXLarge">SOBRE WAVELINK</a></li>
+                    </ul>
+                </nav>
+                <a href="../index.html"><img src="../assets/images/logo.png" class="logo L2"></a>
+            </div>
+            <div class="header3">
+                <a href="../pages/register.html"><img src="../assets/vectors/user.svg" class="vectorUser"></a>
+                <a href="https://www.google.com/maps/place/San+Diego,+CA,+USA/@32.8242389,-117.3898546,10z/data=!3m1!4b1!4m5!3m4!1s0x80d9530fad921e4b:0xd3a21fdfd15df79!8m2!3d32.715738!4d-117.1610838"><img src="../assets/vectors/location.svg" class="vectorMaps"></a>
+            </div>
+        </header>
+        <main class="gradientBG">
+            <aside>
+                <a href="#globalheader"><img src="../assets/vectors/scroll.svg" class="scroll-up"></a>
+            </aside>
+            <h1 class="textRoyal">Crear Cuenta</h1>
+            <section class="margin formDescription">
+                <p class="fontSizeLarge">¡Conviértase en miembro de WaveLink para seguir las últimas promociones y actualizaciones de soporte!<br>Estamos comprometidos a respetar y proteger su privacidad. La información que proporciona aquí solo nos ayudará a brindar un mejor servicio y no será compartida con nadie.</p>
+            </section>
+            <section class="padding">
+                <h1 class="formTitle">Registrarse</h1>
+                <form action="get" class="form">
+                    <fieldset class="lightBG2 formFieldset">
+                        <h2 class="legend">Información Personal</h2>
+                        <label for="email" class="label">Correo Electrónico:</label>
+                        <input type="email" name="email" placeholder="example@domain.com" class="field"><br>
+                        <label for="password" class="label">Crear Contraseña:</label>
+                        <input type="password" name="password" class="field">
+                        <label for="password2" class="label">Confirmar Contraseña:</label>
+                        <input type="password" name="password2" class="field"><br>
+                        <label for="first name" class="label">Nombre:</label>
+                        <input type="text" name="first name" class="field">
+                        <label for="last name" class="label">Apellido:</label>
+                        <input type="text" name="last name" class="field"><br>
+                        <label for="username" class="label">Nombre de usuario:</label>
+                        <input type="text" name="username" class="field"><input type="button" value="Ver disponibilidad" class="buttonCheck"/><p class="fontSizeSmall">(Este es el nombre que se mostrará en los foros públicos.)</p><br>
+                        <label for="Region/Location" class="label">Región:</label>
+                        <select name="Region/Location" class="field">
+                            <option value="" selected disabled hidden>Seleccionar</option>
+                            <option value="Americas">Americas</option>
+                            <option value="Europe">Europa</option>
+                            <option value="Asia, Oceania">Asia, Oceanía</option>
+                            <option value="Middle East & Africa">Oriente Medio y África</option>
+                        </select><br>
+                        <label for="phone number" class="label">(Opcional) Número de Teléfono:</label>
+                        <input type="text" name="phone number" class="field">
+                    </fieldset>
+                    <fieldset class="lightBG2 formFieldset">
+                        <h2 class="legend">Email Preferences</h2>
+                        <div class="label"><input type="radio" name="preference1" value="wavelink news" class="field">Noticias</div>
+                        <div class="label"><input type="radio" name="preference2" value="product updates" class="field">Actualizaciones de Producti</div>
+                        <div class="label"><input type="radio" name="preference3" value="software updates" class="field">Actualizaciones de software</div>
+                        <div class="label"><input type="radio" name="preference4" value="beta updates" class="field">Actualizaciones Beta</div>
+                        <div class="label"><input type="radio" name="preference5" value="community updates" class="field">Consejos, estadísticas y actualizaciones de la comunidad</div>
+                        <div class="label"><input type="radio" name="preference6" value="special offers" class="field">Ofertas Especiales</div>
+                        <hr>
+                        <div class="label"><input type="checkbox" name="newsletters" value="1" class="field"/>Suscribirme al Newsletter</div>
+                    </fieldset>
+                    <div class="terms">
+                        <h2 class="termsTitle">Por favor, revise nuestros términos antes de continuar.</h2>
+                        <p class="termsDescription">Nuestros Términos de Servicio establecen las reglas y pautas que debe aceptar y seguir para convertirse en miembro y nuestra Política de Privacidad explica el tipo de información que recopilamos y lo que hacemos con ella. No se preocupe, no vendemos sus datos a nadie. Lo usamos para cumplir con los requisitos legales y para aprender a cómo mejorar su experiencia con WaveLink.</p>
+                        <div class="label"><input type="checkbox" name="tos" value="1" class="field"/>Acepto los <a href="" class="link">Términos de Servicio</a></div>
+                        <div class="label"><input type="checkbox" name="privacy policy" value="1" class="field"/>Acepto la <a href="" class="link">Política de Privacidad</a></div>
+                        <input type="submit" value="Enviar" class="buttonForm"/>
+                        <input type="Reset" value="Vaciar Todo" class="buttonForm"/>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <aside class="padding">
+                <a href="#globalheader"><img src="../assets/vectors/scroll-mobile.svg" class="vector"></a>
+            </aside>
+            <section class="footerNav-container"><!--Website Navigation-->
+                <div>
+                    <nav class="footerNav">
+                        <ul>
+                            <h3>COMUNIDAD</h3>
+                            <li><a href="">Programa de Recompensas WaveLink</a></li>
+                            <li><a href="">Foros</a></li>
+                            <li><a href="">Redes Sociales</a></li>
+                            <li><a href="">Blogs</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footerNav">
+                        <ul>
+                            <h3>SOPORTE</h3>
+                            <li><a href="">Descargas</a></li>
+                            <li><a href="../pages/register.html">Member Center</a></li>
+                            <li><a href="../pages/support.html">Servicio Técnico</a></li>
+                            <li><a href="">Garantía</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footerNav">
+                        <ul>
+                            <h3>MEDIOS</h3>
+                            <li><a href="">Noticias</a></li>
+                            <li><a href="">Premios</a></li>
+                            <li><a href="">Fondos de pantalla</a></li>
+                            <li><a href="">Aplicaciones WaveLink</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footerNav">
+                        <ul>
+                            <h3>SOBRE NOSOTROS</h3>
+                            <li><a href="../pages/aboutus.html">Sobre WaveLink</a></li>
+                            <li><a href="../pages/aboutus.html#missionandvision">Misión y Visión</a></li>
+                            <li><a href="../pages/aboutus.html#brandstory">Historia de la Marca</a></li>
+                            <li><a href="">RSC</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <div class="margin">
+                    <p class="fontSizeXXSmall website-disclaimer">Este sitio web fue creado con fines de práctica de programación y debe ser tratado como tal. Todas las empresas y asociaciones representadas son ficticias. WaveLink no es una empresa real y todos los productos exhibidos perteneces a sus fabricantes originales. Los <span class="underline"><a href="../pages/credits.html" class="fontSizeXXSmall">créditos de las imágenes</a></span> van a sus respectivos autores.</p>
+                </div>
+                <div class="policies-container">
+                    <div class="policies1">
+                        <img src="../assets/images/logolight.png" class="footerLogo"><p class="fontSizeSmall">© 2021 WaveLink Inc. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="policies2">
+                        <a href="https://www.facebook.com"><img src="../assets/vectors/facebook.svg" class="vector"></a>
+                        <a href="https://www.instagram.com"><img src="../assets/vectors/instagram.svg" class="vector"></a>
+                        <a href="https://www.youtube.com"><img src="../assets/vectors/youtube.svg" class="vector"></a>
+                    </div>
+                    <div class="policies3">
+                        <nav>
+                            <ul class="nobullet">
+                                <li class="fontSizeSmall"><a href="">Política de Cookies</a></li>
+                                <li class="fontSizeSmall"><a href="">Política de Privacidad</a></li>
+                                <li class="fontSizeSmall"><a href="">Condiciones de Uso</a></li>
+                                <li class="fontSizeSmall"><a href="">Contáctenos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="policies4">
+                        <a href="https://neftisdragon.github.io/WaveLink/pages/formulary.html"><img src="../assets/vectors/language.svg" title="Cambiar a Inglés" alt="Cambiar a Inglés" class="vector"></a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
