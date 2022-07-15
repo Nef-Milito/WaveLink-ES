@@ -11,4 +11,6 @@ Saludos!
 
 * * *
 
-Pueden acceder al sitio desde aquí: https://neftisdragon.github.io/WaveLink/
+Pueden acceder al sitio desde aquí: https://neftisdragon.github.io/WaveLink-ES/
+
+Sitio global: https://neftisdragon.github.io/WaveLink/
